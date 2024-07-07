@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+header {
+    background-color: #232f3e;
+    color: #fff;
+    padding: 6px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.repo-header{
+    background-color:white;
+    padding:  0;
+    border-bottom: 1px solid wheat;
+   
+}
+.repo-header h2 {
+    font-size: 24px;
+}
+
+.repo-header a {
+    color: #0366d6;
+    text-decoration: none;
+  
+}
+.repo-nav ul{
+    list-style: none;
+    gap: 60px;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+  
+}
+.repo-nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.product-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+    max-width: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.product-details {
+    margin-left: 20px;
+    max-width: 400px;
+}
+
+.product-details h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.price {
+    font-size: 20px;
+    color: #b12704;
+}
+
+.limited-deal {
+    font-size: 16px;
+    color: #cc0000;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.emi, .offer, .location, .ratings, .delivery, .cashback {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.buy-button {
+    background-color: #ffa41c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.buy-button:hover {
+    background-color: #ff8f00;
+}
